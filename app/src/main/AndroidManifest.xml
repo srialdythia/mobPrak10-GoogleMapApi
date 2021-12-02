@@ -35,14 +35,17 @@
         <activity
             android:name=".BasicMapWithMarker"
             android:exported="true"
-            android:label="@string/title_activity_basic_map_with_marker"/>
+            android:label="@string/title_activity_basic_map_with_marker"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".BasicMap"
             android:exported="true"
-            android:label="@string/title_activity_basic_map" />
+            android:label="@string/title_activity_basic_map"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".BasicGPS"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

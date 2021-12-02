@@ -32,7 +32,6 @@ public class BasicGPS extends AppCompatActivity {
 
     private TextView latitudeField, longitudeField;
     private static final int PERMISSIONS_FINE_LOCATION = 99;
-    private Switch sw_update;
 
     Location currentLocation;
 
@@ -50,7 +49,6 @@ public class BasicGPS extends AppCompatActivity {
         setContentView(R.layout.activity_basic_gps);
         latitudeField = findViewById(R.id.TVLatitude);
         longitudeField = findViewById(R.id.TVLongitude);
-        sw_update = findViewById(R.id.sw_updates);
 
         // set all properties of locationRequest
         locationRequest = new LocationRequest();
