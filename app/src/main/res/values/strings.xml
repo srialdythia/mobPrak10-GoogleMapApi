@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Modul 10 -  Google Maps API</string>
+    <string name="title_activity_basic_map">BasicMap</string>
+    <string name="title_activity_basic_map_with_marker">BasicMapWithMarker</string>
+</resources>
